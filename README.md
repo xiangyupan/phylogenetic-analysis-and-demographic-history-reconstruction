@@ -12,3 +12,6 @@
 
 4.rename    
 `perl maf.rename.species.S.pl Cervus_albirostris.last.maf Cattle(targetName) Cervus_albirostris(queryName) Cervus_albirostris.last.maf.final.maf > Cervus_albirostris.last.maf.stat`    
+
+5.multiz   
+`python3.5 MergeMAFFile.py -i chr1.list -p $PATH/chr1`  
