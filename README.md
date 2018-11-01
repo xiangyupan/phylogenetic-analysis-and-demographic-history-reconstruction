@@ -24,4 +24,6 @@
 `perl Identify_4D_Sites.pl UCD1.2.gff  cattle.4dtv.tmp`    
 `perl gff_maker.pl cattle.4dtv.tmp > cattle.4dtv.gff`    
 `perl 01.convertMaf2List.pl chr1.filter.maf`     
-`perl 02.lst2gene.pl cattle.maf.lst`     
+`perl 02.lst2gene.pl cattle.maf.lst`       
+`perl cat_genes.pl`    
+
