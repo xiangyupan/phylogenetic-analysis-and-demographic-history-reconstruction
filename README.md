@@ -15,3 +15,13 @@
 
 5.multiz   
 `python3.5 MergeMAFFile.py -i chr1.list -p $PATH/chr1`  
+
+6.filter_no_ref
+`mafFilter -speciesFilter=filename chr1.raw.maf > chr1.filter.maf`    
+##filename is a list name with the species name which we want to filter without it
+
+7.pick 4dTV sites from maf   
+`perl Identify_4D_Sites.pl UCD1.2.gff  cattle.4dtv.tmp`    
+`perl gff_maker.pl cattle.4dtv.tmp > cattle.4dtv.gff`    
+`perl 01.convertMaf2List.pl chr1.filter.maf`     
+`perl 02.lst2gene.pl cattle.maf.lst`     
