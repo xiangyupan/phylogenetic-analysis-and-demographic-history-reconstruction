@@ -30,5 +30,5 @@
 `python3.5 cds_to_4dtv.py Cattle.rename.cds.edit Cattle Cattle.4dTV.fasta` 
 `cat *.fasta > All.12.species.Cervidae.4DTV.fasta`    
 
-8、ML tree by iqtree
+8、ML tree by iqtree   
 `iqtree -s All.12.species.Cervidae.4DTV.fasta -nt 10 -bb 1000 -m TEST -o Giraffe`   
