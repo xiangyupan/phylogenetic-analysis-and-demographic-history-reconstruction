@@ -26,4 +26,5 @@
 `perl 01.convertMaf2List.pl chr1.filter.maf`     
 `perl 02.lst2gene.pl cattle.maf.lst`       
 `perl cat_genes.pl`    
+`python3.5 deal_cds_to_line.py rename.cds rename.cds.edit`    
 
