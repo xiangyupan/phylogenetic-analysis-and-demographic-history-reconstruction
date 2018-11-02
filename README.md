@@ -27,4 +27,8 @@
 `perl 02.lst2gene.pl cattle.maf.lst`       
 `perl cat_genes.pl`    
 `python3.5 deal_cds_to_line.py rename.cds rename.cds.edit`    
+`python3.5 cds_to_4dtv.py Cattle.rename.cds.edit Cattle Cattle.4dTV.fasta` 
+`cat *.fasta > All.12.species.Cervidae.4DTV.fasta`    
 
+8、ML tree by iqtree
+`iqtree -s All.12.species.Cervidae.4DTV.fasta -nt 10 -bb 1000 -m TEST -o Giraffe`   
