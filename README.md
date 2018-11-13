@@ -16,7 +16,7 @@
 5.multiz   
 `python3.5 MergeMAFFile.py -i chr1.list -p $PATH/chr1`  
 
-6.filter_no_ref
+6.filter_no_ref     
 `mafFilter -speciesFilter=filename chr1.raw.maf > chr1.filter.maf`    
 ##filename is a list name with the species name which we want to filter without it
 
