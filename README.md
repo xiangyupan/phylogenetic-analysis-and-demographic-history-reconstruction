@@ -27,6 +27,7 @@
 `perl 02.lst2gene.pl cattle.maf.lst`       
 `perl cat_genes.pl`    
 `python3.5 deal_cds_to_line.py rename.cds rename.cds.edit`    
+`cat 1/rename.cds.edit 2/rename.cds.edit 3/rename.cds.edit 4/rename.cds.edit 5/rename.cds.edit 6/rename.cds.edit 7/rename.cds.edit 8/rename.cds.edit 9/rename.cds.edit 10/rename.cds.edit 11/rename.cds.edit 12/rename.cds.edit 13/rename.cds.edit 14/rename.cds.edit 15/rename.cds.edit 16/rename.cds.edit 17/rename.cds.edit 18/rename.cds.edit 19/rename.cds.edit 20/rename.cds.edit 21/rename.cds.edit 22/rename.cds.edit 23/rename.cds.edit 24/rename.cds.edit 25/rename.cds.edit 26/rename.cds.edit 27/rename.cds.edit 28/rename.cds.edit 29/rename.cds.edit S/rename.cds.edit MT/rename.cds.edit X/rename.cds.edit  > All.rename.cds.edit`     
 `python3.5 cds_to_4dtv.py Cattle.rename.cds.edit Cattle Cattle.4dTV.fasta`      
 `cat *.fasta > All.12.species.Cervidae.4DTV.fasta`    
 
