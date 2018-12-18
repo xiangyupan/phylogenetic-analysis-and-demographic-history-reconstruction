@@ -15,6 +15,7 @@
 
 5.multiz   
 `python3.5 MergeMAFFile.py -i chr1.list -p $PATH/chr1`  
+> multiz {3}{0}.maf {3}{1}.maf 0 all > {3}{2}.maf    
 
 6.filter_no_ref     
 `mafFilter -speciesFilter=filename chr1.raw.maf > chr1.filter.maf`    
