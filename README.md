@@ -22,7 +22,7 @@
 ##filename is a list name with the species name which we want to filter without it
 
 7.pick 4dTV sites from maf   
-`perl Identify_4D_Sites.pl UCD1.2.gff  cattle.4dtv.tmp`    
+`perl Identify_4D_Sites.pl UCD1.2.gff cattle.fa cattle.4dtv.tmp`    
 `perl gff_maker.pl cattle.4dtv.tmp > cattle.4dtv.gff`    
 `perl 01.convertMaf2List.pl chr1.filter.maf 1`     
 `perl 02.lst2gene.pl cattle.maf.lst`       
