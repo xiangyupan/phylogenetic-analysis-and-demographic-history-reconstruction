@@ -21,7 +21,7 @@
 `mafFilter -speciesFilter=filename chr1.raw.maf > chr1.filter.maf`    
 ##filename is a list name with the species name which we want to filter without it
 
-7. filter gff   
+7. filter gff  
 `perl clear_gff.pl UCD1.2.gff`     
 
 8.pick 4dTV sites from maf   
