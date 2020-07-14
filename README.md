@@ -22,7 +22,7 @@
 ##filename is a list name with the species name which we want to filter without it
 
 7. filter gff   
-perl clear_gff.pl UCD1.2.gff  
+`perl clear_gff.pl UCD1.2.gff`     
 
 8.pick 4dTV sites from maf   
 `perl Identify_4D_Sites.pl UCD1.2.gff cattle.fa cattle.4dtv.tmp`    
